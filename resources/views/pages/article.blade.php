@@ -18,7 +18,7 @@
                         <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                      </ul>
                      <p>
-                        {{ $post->description }}
+                        {!! $post->description !!}
                      </p>
                   </div>
                </div>
