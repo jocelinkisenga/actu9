@@ -38,13 +38,13 @@
                     <!-- Riht content -->
                     <div class="col-lg-4">
                         @foreach ($recentPosts as $item)
-                                                    <div class="trand-right-single d-flex">
+                        <div class="trand-right-single d-flex">
                             <div class="trand-right-img">
                                 <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
                             </div>
                             <div class="trand-right-cap">
                                 <span class="color1">{{ $item->category->title }}</span>
-                                <h4><a href="details.html">{{ $item->title }}</a></h4>
+                                <h4><a href="{{ route("posts.show", ["id" => $item->id]) }}">{{ $item->title }}</a></h4>
                             </div>
                         </div>
                         @endforeach
@@ -97,7 +97,7 @@
 
     <!-- End Weekly-News -->
     <!-- Start Youtube -->
-    <div class="youtube-area video-padding">
+    {{-- <div class="youtube-area video-padding">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -172,7 +172,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Start youtube -->
     <!--  Recent Articles start -->
     <div class="recent-articles">
@@ -190,7 +190,7 @@
                     <div class="col-12">
                         <div class="recent-active dot-style d-flex dot-style">
                             @foreach ($recentPosts as $item)
-                                                                <div class="single-recent mb-100">
+                            <div class="single-recent mb-100">
                                 <div class="what-img">
                                     <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
                                 </div>
@@ -202,7 +202,7 @@
                             @endforeach
                         </div>
                     </div>
-                </div>
+                </div>   
            </div>
         </div>
     </div>

@@ -27,7 +27,7 @@ Route::get("/live",[HomeController::class,"live"])->name("live");
 Route::get("article/{id}",[PostController::class,"show"])->name("posts.show");
 Route::get("couponsHome/",[CouponController::class,"index"])->name("coupons.index");
 Route::get("frontPosts",[PostController::class,"front"])->name("posts.front");
-Route::get('categories',[CategoryController::class, 'index'])->name('categories.index');
+
 Route::get("about", [Aboutcontroller::class,"index"])->name("about");
 Route::get("contact", [ContactController::class, "index"])->name("contact");
 
@@ -48,7 +48,10 @@ Route::middleware('auth')->group(function () {
     Route::get("/videos",[VideoController::class,"index"])->name("videos.index");
     Route::get("/video",[VideoController::class,"create"])->name("video.create");
     Route::post("/video",[VideoController::class,"store"])->name("video.store");
+    Route::get('categories', [CategoryController::class, 'index'])->name('categories.index');
     Route::get("/videoDelete/{id}",[VideoController::class,"delete"])->name("video.delete");
+    Route::get("categorie",[CategoryController::class, "create"])->name("categorie.create");
+    Route::post("categorie", [CategoryController::class, "store"])->name("categorie.store");
 
 });
 
