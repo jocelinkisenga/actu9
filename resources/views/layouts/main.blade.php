@@ -10,18 +10,18 @@
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
 		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/ticker-style.css">
-            <link rel="stylesheet" href="assets/css/flaticon.css">
-            <link rel="stylesheet" href="assets/css/slicknav.css">
-            <link rel="stylesheet" href="assets/css/animate.min.css">
-            <link rel="stylesheet" href="assets/css/magnific-popup.css">
-            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="assets/css/themify-icons.css">
-            <link rel="stylesheet" href="assets/css/slick.css">
-            <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/ticker-style.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/slicknav.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/fontawesome-all.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
    </head>
 
    <body>
@@ -69,13 +69,13 @@
                         <div class="row d-flex align-items-center">
                             <!-- Logo -->
                             <div class="col-xl-3 col-lg-3 col-md-3">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <div class="logo text-black">
+                                    <a href="/"><img src="logo.png" alt="" srcset=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-9 col-lg-9 col-md-9">
                                 <div class="header-banner f-right ">
-                                    <img src="assets/img/hero/header_card.jpg" alt="">
+                                    <img src="ban.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -87,25 +87,17 @@
                             <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
                                 <!-- sticky -->
                                     <div class="sticky-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                        <a href="/"><img src="logo.png" alt=""></a>
                                     </div>
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-md-block">
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="/">Accueil</a></li>
-                                            <li><a href="{{ route('categories.index') }}">Categories</a></li>
+
                                             <li><a href="{{ route("about") }}">A propos</a></li>
                                             <li><a href="{{ route("posts.front") }}">Tous les articles</a></li>
                                             <li><a href="{{ route("contact") }}">Contact</a></li>
-                                            <li><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Blog Details</a></li>
-                                                    <li><a href="details.html">Categori Details</a></li>
-                                                </ul>
-                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -148,7 +140,7 @@
                             <div class="single-footer-caption">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index.html"><img src="logo.png" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
@@ -216,7 +208,7 @@
                         <div class="col-lg-6">
                             <div class="footer-copy-right">
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://github.com/jocelinkisenga" target="_blank">jocelin kisenga</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
@@ -235,6 +227,7 @@
        </div>
        <!-- Footer End-->
    </footer>
+
 
 	<!-- JS here -->
 

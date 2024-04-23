@@ -32,20 +32,16 @@
             </div>
         </div>
     </div>
-        <div class="pagination-area pb-45 text-center">
+    <div class="pagination-area pb-45 text-center mb-1 mt-1">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="single-wrap d-flex justify-content-center">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-start">
-                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow roted"></span></a></li>
-                                <li class="page-item active"><a class="page-link" href="#">{!! $articles->links() !!}</a></li>
-                            </ul>
-                          </nav>
-                    </div>
+             {{ $articles->links('vendor.pagination.bootstrap-4') }}
+ </div>
                 </div>
             </div>
         </div>
     </div>
+
 @endsection

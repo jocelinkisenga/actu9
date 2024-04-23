@@ -15,7 +15,7 @@
                                         <li class="news-item">Rem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                                     </ul>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -30,17 +30,16 @@
                                             <h3>About Us</h3>
                                         </div>
                                         <div class="about-prea">
-                                            <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                                            <p class="about-pera1 mb-25">Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
-                                            <p class="about-pera1 mb-25">
-                                                My hero when I was a kid was my mom. Same for everyone I knew. Moms are untouchable. They’re elegant, smart, beautiful, kind…everything we want to be. At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top, makes me so proud of how far I’ve come, and so thankful for where I come from.
-                                                the refractor telescope uses a convex lens to focus the light on the eyepiece.
-                                                The reflector telescope has a concave lens which means it bends in. It uses mirrors to focus the image that you eventually see.
-                                                Collimation is a term for how well tuned the telescope is to give you a good clear image of what you are looking at. You want your telescope to have good collimation so you are not getting a false image of the celestial body.
-                                                Aperture is a fancy word for how big the lens of your telescope is. But it’s an important word because the aperture of the lens is the key to how powerful your telescope is. Magnification has nothing to do with it, its all in the aperture.
-                                                Focuser is the housing that keeps the eyepiece of the telescope, or what you will look through, in place. The focuser has to be stable and in good repair for you to have an image you can rely on.
-                                                Mount and Wedge. Both of these terms refer to the tripod your telescope sits on. The mount is the actual tripod and the wedge is the device that lets you attach the telescope to the mount.
-                                                Moms are like…buttons? Moms are like glue. Moms are like pizza crusts. Moms are the ones who make sure things happen—from birth to school lunch.</p>
+                                            <p class="about-pera1 mb-25">Actu 9 est bien plus qu'une simple plate-forme d'informations. C'est un hub dynamique où les utilisateurs se connectent pour rester informés, éclairés et engagés avec le monde qui les entoure. En tant que source de nouvelles en temps réel, nous nous engageons à fournir des informations complètes et impartiales sur une multitude de sujets, allant de l'économie à la culture, en passant par le sport et la politique.Nos objectifs sont multiples :
+1. Fournir des informations de qualité : Nous nous efforçons de garantir l'exactitude et la fiabilité de toutes les informations que nous diffusons, en veillant à ce qu'elles soient bien sourcées et vérifiées.
+2.
+2. Promouvoir la diversité : Nous croyons en la richesse de la diversité et nous nous engageons à inclure une variété de perspectives dans notre couverture médiatique.
+
+3. Encourager l'engagement civique : Nous aspirons à inspirer nos utilisateurs à s'impliquer activement dans leur communauté et dans les enjeux qui les touchent, en leur fournissant les connaissances nécessaires pour prendre des décisions éclairées.
+
+4. Innover constamment : Nous cherchons toujours à repousser les limites de ce qui est possible dans le domaine de l'information en ligne, en adoptant les dernières technologies et en développant de nouveaux formats pour présenter les nouvelles de manière captivante et accessible.
+
+Notre mission est de connecter les individus du monde entier en leur fournissant un accès rapide et fiable aux informations qui façonnent notre monde. Nous croyons en l'importance de l'information pour une société éclairée et nous nous efforçons de créer un espace où chacun peut s'informer, se former et s'engager activement dans le débat public.</p>
                                         </div>
                                     </div>
                         </div>
@@ -56,11 +55,11 @@
                                         <div class="follow-social">
                                             <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
                                         </div>
-                                        <div class="follow-count">  
+                                        <div class="follow-count">
                                             <span>8,045</span>
                                             <p>Fans</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="follow-us d-flex align-items-center">
                                         <div class="follow-social">
                                             <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
