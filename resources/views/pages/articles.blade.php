@@ -14,7 +14,7 @@
                             <div class="col-lg-4">
                                 <div class="single-bottom mb-35">
                                     <div class="trend-bottom-img mb-30">
-                                        <img src="assets/img/trending/trending_bottom1.jpg" alt="">
+                                        <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
                                     </div>
                                     <div class="trend-bottom-cap">
                                         <span class="color1">{{ $item->category->title }}</span>

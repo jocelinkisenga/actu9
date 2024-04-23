@@ -11,8 +11,18 @@
             formulaire d'ajout d'article
           </p>
           <form class="forms-sample" method="POST" action="{{ route("posts.store") }}" enctype="multipart/form-data">
+            @csrf
             <div class="form-group row">
-                @csrf
+                <label for="my-select">categorie</label>
+                <select id="my-select" class="form-control" name="category_id">
+                  <option selected>selectionner une categorie</option>
+                    @foreach ($categories as $item)
+                      <option value="{{ $item->id }}">{{ $item->title }}</option>
+                    @endforeach
+                </select>
+            </div>
+            <div class="form-group row">
+
               <label for="exampleInputUsername2" class="col-sm-3 col-form-label">titre</label>
               <div class="col-sm-9">
                 <input type="text"  name="title" class="form-control" id="exampleInputUsername2" placeholder="">

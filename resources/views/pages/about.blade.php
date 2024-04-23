@@ -3,22 +3,7 @@
             <div class="about-area">
             <div class="container">
                     <!-- Hot Aimated News Tittle-->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="trending-tittle">
-                                <strong>Trending now</strong>
-                                <!-- <p>Rem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-                                <div class="trending-animated">
-                                    <ul id="js-news" class="js-hidden">
-                                        <li class="news-item">Bangladesh dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li class="news-item">Spondon IT sit amet, consectetur.......</li>
-                                        <li class="news-item">Rem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    </ul>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
                    <div class="row">
                         <div class="col-lg-8">
                             <!-- Trending Tittle -->
@@ -27,19 +12,28 @@
                                             <img src="assets/img/post/about_heor.jpg" alt="">
                                         </div>
                                         <div class="section-tittle mb-30 pt-30">
-                                            <h3>About Us</h3>
+                                            <h3>A propos de nous</h3>
                                         </div>
                                         <div class="about-prea">
+
                                             <p class="about-pera1 mb-25">Actu 9 est bien plus qu'une simple plate-forme d'informations. C'est un hub dynamique où les utilisateurs se connectent pour rester informés, éclairés et engagés avec le monde qui les entoure. En tant que source de nouvelles en temps réel, nous nous engageons à fournir des informations complètes et impartiales sur une multitude de sujets, allant de l'économie à la culture, en passant par le sport et la politique.Nos objectifs sont multiples :
-1. Fournir des informations de qualité : Nous nous efforçons de garantir l'exactitude et la fiabilité de toutes les informations que nous diffusons, en veillant à ce qu'elles soient bien sourcées et vérifiées.
-2.
-2. Promouvoir la diversité : Nous croyons en la richesse de la diversité et nous nous engageons à inclure une variété de perspectives dans notre couverture médiatique.
+                                            </p>
+                                            <ul>
+                <ol> <h5>Fournir des informations de qualité :</h5>
+                    Nous nous efforçons de garantir l'exactitude et la fiabilité de toutes les informations que nous diffusons, en veillant à ce qu'elles soient bien sourcées et vérifiées.
+                </ol>
 
-3. Encourager l'engagement civique : Nous aspirons à inspirer nos utilisateurs à s'impliquer activement dans leur communauté et dans les enjeux qui les touchent, en leur fournissant les connaissances nécessaires pour prendre des décisions éclairées.
+                <ol> <h5>Promouvoir la diversité :</h5>
+                    Nous croyons en la richesse de la diversité et nous nous engageons à inclure une variété de perspectives dans notre couverture médiatique.</ol>
 
-4. Innover constamment : Nous cherchons toujours à repousser les limites de ce qui est possible dans le domaine de l'information en ligne, en adoptant les dernières technologies et en développant de nouveaux formats pour présenter les nouvelles de manière captivante et accessible.
+                <ol> <h5>Encourager l'engagement civique :</h5>
+                    Nous aspirons à inspirer nos utilisateurs à s'impliquer activement dans leur communauté et dans les enjeux qui les touchent, en leur fournissant les connaissances nécessaires pour prendre des décisions éclairées.</ol>
 
-Notre mission est de connecter les individus du monde entier en leur fournissant un accès rapide et fiable aux informations qui façonnent notre monde. Nous croyons en l'importance de l'information pour une société éclairée et nous nous efforçons de créer un espace où chacun peut s'informer, se former et s'engager activement dans le débat public.</p>
+                <ol> <h5>Innover constamment :</h5>
+                     Nous cherchons toujours à repousser les limites de ce qui est possible dans le domaine de l'information en ligne, en adoptant les dernières technologies et en développant de nouveaux formats pour présenter les nouvelles de manière captivante et accessible.</ol>
+                                            </ul>
+
+<p class="about-pera1 mb-25">Notre mission est de connecter les individus du monde entier en leur fournissant un accès rapide et fiable aux informations qui façonnent notre monde. Nous croyons en l'importance de l'information pour une société éclairée et nous nous efforçons de créer un espace où chacun peut s'informer, se former et s'engager activement dans le débat public.</p>
                                         </div>
                                     </div>
                         </div>

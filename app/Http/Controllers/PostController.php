@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Post;
 use App\Http\Requests\StorePostRequest;
 use App\Http\Requests\UpdatePostRequest;
+use App\Models\Category;
 use Carbon\Carbon;
 
 class PostController extends Controller
@@ -29,7 +30,8 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view("pages.addArticle");
+        $categories = Category::all();
+        return view("pages.addArticle",["categories" => $categories]);
     }
 
     /**
@@ -37,10 +39,12 @@ class PostController extends Controller
      */
     public function store(StorePostRequest $request)
     {
+
         $imgName = Carbon::now()->timestamp .'patrickngoy.' . $request->file('image')->extension();
         $path = $request->file("image")->storeAs('uploads',$imgName,'public');
 
         Post::create([
+            "category_id" => $request->category_id,
             "title" => $request->title,
             "slug" => $request->slug,
             "image" => $imgName,
@@ -57,7 +61,8 @@ class PostController extends Controller
     public function show(int $id)
     {
         $post = Post::findOrFail($id);
-        return view("pages.article",compact("post"));
+        $categories = Category::all();
+        return view("pages.article",compact("post","categories"));
     }
 
     /**
