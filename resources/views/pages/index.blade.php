@@ -9,7 +9,7 @@
                         <!-- Trending Top -->
                         <div class="trending-top mb-30">
                             <div class="trend-top-img">
-                                <img src="{{ asset("storage/uploads/".$latestPost->image) }}" alt="">
+                                <img src="{{ asset("storage/uploads/".$latestPost->image) }}" class="img-fluid" alt="actu9">
                                 <div class="trend-top-cap">
                                     <span>{{ $latestPost->category->title }}</span>
                                     <h2><a href="{{ route("posts.show",["id" => $latestPost->id]) }}">{{ $latestPost->title }}</a></h2>
@@ -23,7 +23,7 @@
                             <div class="col-lg-4">
                                 <div class="single-bottom mb-35">
                                     <div class="trend-bottom-img mb-30">
-                                        <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
+                                        <img src="{{ asset("storage/uploads/".$item->image) }}" alt="actu9" class="img-fluid">
                                     </div>
                                     <div class="trend-bottom-cap">
                                         <span class="color1">{{ $item->category->title }}</span>
@@ -40,7 +40,7 @@
                         @foreach ($recentPosts as $item)
                         <div class="trand-right-single d-flex">
                             <div class="trand-right-img">
-                                <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
+                                <img src="{{ asset("storage/uploads/".$item->image) }}" class="img-fluid" alt="actu9">
                             </div>
                             <div class="trand-right-cap">
                                 <span class="color1">{{ $item->category->title }}</span>
@@ -73,7 +73,7 @@
 
                                     <div class="weekly-single">
                                 <div class="weekly-img">
-                                    <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
+                                    <img src="{{ asset("storage/uploads/".$item->image) }}" class="img-fluid" alt="actu 9">
                                 </div>
                                 <div class="weekly-caption">
                                     <span class="color1">{{ $item->category->title }}</span>
@@ -192,7 +192,7 @@
                             @foreach ($recentPosts as $item)
                             <div class="single-recent mb-100">
                                 <div class="what-img">
-                                    <img src="{{ asset("storage/uploads/".$item->image) }}" alt="">
+                                    <img src="{{ asset("storage/uploads/".$item->image) }}" class="img-fluid" alt="actu9">
                                 </div>
                                 <div class="what-cap">
                                     <span class="color1">{{ $item->category->title}}</span>
