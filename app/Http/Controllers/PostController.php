@@ -58,7 +58,7 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(int $id)
+    public function show(string $title , int $id)
     {
         $post = Post::findOrFail($id);
         $categories = Category::all();
