@@ -12,7 +12,7 @@
                                 <img src="{{ asset("storage/uploads/".$latestPost->image) }}" class="img-fluid" alt="actu9">
                                 <div class="trend-top-cap">
                                     <span>{{ $latestPost->category->title }}</span>
-                                    <h2><a href="{{ route("posts.show",['title' => $latestPost->title, 'id' => $latestPost>id]) }}">{{ $latestPost->title }}</a></h2>
+                                    <h2><a href="{{ route("posts.show",['title' => $latestPost->title, 'id' => $latestPost->id]) }}">{{ $latestPost->title }}</a></h2>
                                 </div>
                             </div>
                         </div>
