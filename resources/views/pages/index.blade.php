@@ -27,7 +27,7 @@
                                     </div>
                                     <div class="trend-bottom-cap">
                                         <span class="color1">{{ $item->category->title }}</span>
-                                        <h4><a href="{{ route("posts.show",['id' => $item->id]) }}">{{ $item->title }}</a></h4>
+                                        <h4><a href="{{ route("posts.show",['title' => $item->title, 'id' => $item->id]) }}">{{ $item->title }}</a></h4>
                                     </div>
                                 </div>
                                 </div>
