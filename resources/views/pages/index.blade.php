@@ -12,7 +12,7 @@
                                 <img src="{{ asset("storage/uploads/".$latestPost->image) }}" class="img-fluid" alt="actu9">
                                 <div class="trend-top-cap">
                                     <span>{{ $latestPost->category->title }}</span>
-                                    <h2><a href="{{ route("posts.show",["id" => $latestPost->id]) }}">{{ $latestPost->title }}</a></h2>
+                                    <h2><a href="{{ route("posts.show",['title' => $latestPost>title, 'id' => $latestPost>id]) }}">{{ $latestPost->title }}</a></h2>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                             </div>
                             <div class="trand-right-cap">
                                 <span class="color1">{{ $item->category->title }}</span>
-                                <h4><a href="{{ route("posts.show", ["id" => $item->id]) }}">{{ $item->title }}</a></h4>
+                                <h4><a href="{{ route("posts.show",['title' => $item->title, 'id' => $item->id]) }}">{{ $item->title }}</a></h4>
                             </div>
                         </div>
                         @endforeach
@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="weekly-caption">
                                     <span class="color1">{{ $item->category->title }}</span>
-                                    <h4><a href="{{ route("posts.show", ["id" => $item->id]) }}">{{ $item->title }}</a></h4>
+                                    <h4><a href="{{ route("posts.show",['title' => $item->title, 'id' => $item->id]) }}">{{ $item->title }}</a></h4>
                                 </div>
                             </div>
 
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="what-cap">
                                     <span class="color1">{{ $item->category->title}}</span>
-                                    <h4><a href="{{ route("posts.show", ["id" => $item->id]) }}">{{ $item->title }}</a></h4>
+                                    <h4><a href="{{ route("posts.show",['title' => $item->title, 'id' => $item->id]) }}">{{ $item->title }}</a></h4>
                                 </div>
                             </div>
                             @endforeach
